@@ -11,7 +11,7 @@ import (
 */
 
 func main() {
-	arr := [5]int{2, 4, 6, 7, 10}
+	arr := [5]int{2, 4, 6, 8, 10}
 	wg := new(sync.WaitGroup)
 
 	for i := 0; i < len(arr); i++ {
